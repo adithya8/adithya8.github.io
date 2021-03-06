@@ -1,0 +1,152 @@
+.header-name{
+    font-size: 35pt;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+}
+
+.my-header span { 
+    float:left;
+    font-size: 20pt;
+    text-align: left;
+}
+
+.my-header span:hover, .my-header span:focus{
+    font-size: 25pt;
+    transition: 0.5s;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    padding-top: 5%;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    display: table-cell;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+
+.left-half{
+    background: white;
+    word-wrap:normal;
+    padding-left: 2%;
+    padding-right: 1%;
+    vertical-align: middle;
+    width: 30%;
+}
+
+
+@media (min-width: 992px) {
+    .left-half {
+      position: fixed;
+    }
+
+    #pic {
+      width: 250px;
+    }
+  }
+
+@media (max-width: 992px) {
+    .left-half {
+        padding-bottom: 5%;	
+        margin: auto;
+        text-align: center;
+        vertical-align: top;
+        width: 20%
+    }
+
+    #pic {
+        width: 50%;
+    }
+
+    .right-half{
+        padding-left: 1%;
+        padding-right: 2%;   
+        position: static;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+    }
+}
+
+
+.right-half{
+    padding-left: 35%;
+    padding-right: 2%;   
+    position: static;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+
+.bio {
+    background: white;
+    text-align: left;
+    font-size: 12pt;
+    line-height: 7.5mm;
+}
+
+.desc{
+    font-size: 13pt;
+    line-height: 7.5mm;
+}
+
+.updates{
+    background: white;
+    text-align: left;
+    font-size: 12pt;
+    line-height: 7.5mm;
+}
+
+.updates-li{
+    background: rgba(245, 245, 245, 0.493);
+    text-align: left;
+    font-size: 12pt;
+    line-height: 7.5mm;
+    overflow: scroll;
+    height: 120px;
+    padding-bottom: 1%;
+}
+
+.pubs{
+    background: white;
+    text-align: left;
+    font-size: 12pt;
+    line-height: 7.5mm;
+}
+
+.pubs-li{
+    background: white;
+    text-align: left;
+    font-size: 12pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    line-height: 7.5mm;
+    height: 100px;                
+}
+
+.paper{
+    background-color: rgba(236, 38, 38, 0.452);
+    padding: 1mm;
+    color: white;   
+}
+
+.pubs-li span:hover, .pubs-li span:focus{
+    font-size: 14pt;
+    transition: 0.25s;
+}
+
+.pubs-li a{
+    text-decoration:none;
+}
+
+.paper-name{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
