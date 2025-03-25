@@ -112,7 +112,7 @@ def main():
     print("Negative Log Likelihood (Batch): {:.4f}".format(loss_batch))
     print("Accuracy (Batch): {:.2f}%".format(accuracy_batch * 100))
     print ("Weights: ", model_batch.weights.round(2))
-    
+
     # ----- Stochastic Gradient Descent Training -----
     print("\nStochastic gradient descent training:")
     model_sgd = LogisticRegressionWithSGD(num_features=1)
